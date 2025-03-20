@@ -38,11 +38,19 @@
 </head>
 
 <body class="body">
+
+    <div class="count-particles">
+        <span class="js-count-particles">--</span> 
+      </div>
+      
+      <!-- particles.js container -->
+    <div id="particles-js"></div>
+
     <div class="page-wrapper">
         <div class="global-styles w-embed">
 
         </div>
-        <div data-animation="default" class="navbar w-nav" data-easing2="ease" fs-scrolldisable-element="smart-nav"
+        <div data-animation="default" class="navbar w-nav navnavnav" data-easing2="ease" fs-scrolldisable-element="smart-nav"
             data-easing="ease" data-collapse="medium" data-w-id="5a5c3428-c239-86a4-05d7-c37ecb1cfa88" role="banner"
             data-duration="400">
             <div class="navbar_container">
@@ -93,18 +101,12 @@
                     <div class="container-large">
                         <div class="hero_padding-section">
                             <div class="hero_background-image-wrapper">
-                                <img class="hero_background-image"
-                                    src="front1.gif" alt=""
-                                    style="opacity:1;width:100%;height:auto;-webkit-transform:translate3d(0, -3rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, -3rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, -3rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, -3rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
-                                    sizes="(max-width: 479px) 92vw, (max-width: 767px) 95vw, (max-width: 991px) 92vw, (max-width: 1439px) 93vw, 1280px"
-                                    data-w-id="36fb146c-0c52-2d35-0ad6-e8137e3aad43" loading="lazy" />
-                                <!-- <img
-                                    class="hero_profile-image"
-                                    src="yash2.png"
-                                    alt="" style="opacity:1"
-                                    sizes="(max-width: 479px) 92vw, (max-width: 767px) 94vw, (max-width: 991px) 90vw, (max-width: 1439px) 93vw, 1108.921875px"
-                                    data-w-id="36fb146c-0c52-2d35-0ad6-e8137e3aad44" loading="lazy"
-                                    /> -->
+                                <video class="hero_background-image" autoplay loop muted playsinline
+                                    style="opacity:1;width:100%;height:auto;-webkit-transform:translate3d(0, -3rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, -3rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, -3rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, -3rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)">
+                                    <source src="front1.gifs" type="video/mp4">
+                                    <source src="front1.webm" type="video/webm">
+                                    Your browser does not support the video tag.
+                                </video>
                                 <h1 data-w-id="36fb146c-0c52-2d35-0ad6-e8137e3aad45" style="opacity:1"
                                     class="hero_heading">YASH JAIN</h1>
                             </div>
@@ -138,38 +140,34 @@
                             <div class="about_grid">
                                 <div id="w-node-_730c4d09-d7ae-dc91-1dce-5ef7ec35122b-31bce95d"
                                     class="about_heading-wrapper">
-                                    <p text-fly-in-left="" text-split="" class="about_heading">Hi, I’m Yash Jain, a LOL
-                                        person
-                                        and front-end developer based in Greater Noida.</p>
-                                    <div data-w-id="729c4d09-d7ae-dc91-1dce-5ef7ec35122e" style="opacity:1"
+                                    <p text-fly-in-left="" text-split="" class="about_heading" 
+                                       style="font-size: 1.8rem; line-height: 1.6; text-align: center;">
+                                       Hi, I’m Yash Jain, a LOL person and front-end developer based in Greater Noida.
+                                    </p>
+                                    <div data-w-id="729c4d09-d7ae-dc91-1dce-5ef7ec35122e" style="opacity:1; margin-top: 1rem;"
                                         class="about_content-wrapper">
-                                        <p class="about_content">With over a decade of experience in multiple
-                                            disciplines, I
-                                            work with companies to create intuitive and engaging digital experiences.
+                                        <p class="about_content" style="font-size: 1.2rem; line-height: 1.5; text-align: center;">
+                                            With over a decade of experience in multiple disciplines, I work with companies 
+                                            to create intuitive and engaging digital experiences.
                                         </p>
                                     </div>
 
-                                    <div class="socials-about">
-                                        <div class="insta s_icons">
+                                    <div class="socials-about" style="display: flex; justify-content: center; gap: 1rem; margin-top: 1.5rem;">
+                                        <div class="insta s_icons" style="font-size: 1.5rem;">
                                             <i class="fa-brands fa-instagram"></i>
                                         </div>
-                                        <div class="linkedin s_icons">
+                                        <div class="linkedin s_icons" style="font-size: 1.5rem;">
                                             <i class="fa-brands fa-linkedin"></i>
                                         </div>
-                                        <div class="github s_icons">
+                                        <div class="github s_icons" style="font-size: 1.5rem;">
                                             <i class="fa-brands fa-github"></i>
                                         </div>
                                     </div>
                                 </div>
 
-                                <div class="my_img">
-                                    <img src="yash.jpeg" alt="">
+                                <div class="my_img" style="display: flex; justify-content: center; margin-top: 2rem;">
+                                    <img src="yash.jpeg" alt="" style="max-width: 100%; height: auto; width: 200px;">
                                 </div>
-                                <!-- <div data-w-id="729c4d09-d7ae-dc91-1dce-5ef7ec35122e" style="opacity:1"
-                                    class="about_content-wrapper">
-                                    <p class="about_content">With over a decade of experience in multiple disciplines, I
-                                        work with companies to create intuitive and engaging digital experiences.</p>
-                                </div> -->
                             </div>
                         </div>
                     </div>
@@ -779,8 +777,34 @@
 
 
     <script src="main.js">
+    
 
     </script>
+    <script src="jss/particles.js"></script>
+<script src="js/app.js"></script>
+
+<!-- stats.js -->
+<script src="js/lib/stats.js"></script>
+<script>
+  var count_particles, stats, update;
+  stats = new Stats;
+  stats.setMode(0);
+  stats.domElement.style.position = 'absolute';
+  stats.domElement.style.left = '0px';
+  stats.domElement.style.top = '0px';
+  document.body.appendChild(stats.domElement);
+  count_particles = document.querySelector('.js-count-particles');
+  update = function() {
+    stats.begin();
+    stats.end();
+    if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
+      count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
+    }
+    requestAnimationFrame(update);
+  };
+  requestAnimationFrame(update);
+</script>
+
 </body>
 
 </html>
